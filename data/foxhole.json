@@ -1,0 +1,1643 @@
+{
+    "belts": [
+      {
+        "name": "Resource Container",
+        "key_name": "belt0",
+        "rate": 5000
+      }
+    ],
+    "pipes": [
+      {
+        "name": "Pipeline Mk.1",
+        "key_name": "pipe1",
+        "rate": "300"
+      }
+    ],
+    "buildings": [
+      {
+        "name": "Concrete Mixer",
+        "key_name": "concrete-mixer",
+        "category": "concrete1",
+        "power": 0,
+        "max": 12000
+      },
+      {
+        "name": "Coal Refinery",
+        "key_name": "coal-refinery",
+        "category": "coal-refining1",
+        "power": 3,
+        "max": 1
+      },
+      {
+        "name": "Coke Furnace",
+        "key_name": "coke-furnace",
+        "category": "coal-refining2",
+        "power": 3,
+        "max": 1
+      },
+      {
+        "name": "Coal Liquefier",
+        "key_name": "coal-liquefier",
+        "category": "coal-refining3",
+        "power": 4,
+        "max": 1
+      },
+      {
+        "name": "Advanced Coal Liquefier",
+        "key_name": "advanced-coal-liquefier",
+        "category": "coal-refining4",
+        "power": 4,
+        "max": 1
+      },
+      {
+        "name": "Oil Refinery",
+        "key_name": "oil-refinery",
+        "category": "oil-refining1",
+        "power": 1,
+        "max": 1
+      },
+      {
+        "name": "Reformer",
+        "key_name": "reformer",
+        "category": "oil-refining2",
+        "power": 1,
+        "max": 1
+      },
+      {
+        "name": "Cracking Unit",
+        "key_name": "cracking-unit",
+        "category": "oil-refining3",
+        "power": 1.5,
+        "max": 1
+      }
+    ],
+    "miners": [
+      {
+        "name": "Hammer",
+        "key_name": "hammer",
+        "category": "mineral-salvage",
+        "base_rate": 5,
+        "power": 0
+      },
+      {
+        "name": "Sledgehammer",
+        "key_name": "sledgehammer",
+        "category": "mineral-salvage",
+        "base_rate": 10,
+        "power": 0
+      },
+      {
+        "name": "BMS - Scrap Hauler",
+        "key_name": "bms-scrap-hauler",
+        "category": "mineral-salvage",
+        "base_rate": 300,
+        "power": 0
+      },
+      {
+        "name": "Salvage Harvester",
+        "key_name": "miner-salvage",
+        "category": "mineral-salvage",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Salvage Mine",
+        "key_name": "miner-mine",
+        "category": "mineral-salvage",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Hammer",
+        "key_name": "hammer",
+        "category": "mineral-coal",
+        "base_rate": 5,
+        "power": 0
+      },
+      {
+        "name": "Sledgehammer",
+        "key_name": "sledgehammer",
+        "category": "mineral-coal",
+        "base_rate": 10,
+        "power": 0
+      },
+      {
+        "name": "BMS - Scrap Hauler",
+        "key_name": "bms-scrap-hauler",
+        "category": "mineral-coal",
+        "base_rate": 300,
+        "power": 0
+      },
+      {
+        "name": "Coal Harvester",
+        "key_name": "miner-coal",
+        "category": "mineral-coal",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Sledgehammer",
+        "key_name": "sledgehammer",
+        "category": "mineral-sulfur",
+        "base_rate": 10,
+        "power": 0
+      },
+      {
+        "name": "BMS - Scrap Hauler",
+        "key_name": "bms-scrap-hauler",
+        "category": "mineral-sulfur",
+        "base_rate": 300,
+        "power": 0
+      },
+      {
+        "name": "Sulfur Harvester",
+        "key_name": "miner-sulfur",
+        "category": "mineral-sulfur",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Sulfur Mine",
+        "key_name": "miner-mine",
+        "category": "mineral-sulfur",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Sledgehammer",
+        "key_name": "sledgehammer",
+        "category": "mineral-components",
+        "base_rate": 10,
+        "power": 0
+      },
+      {
+        "name": "BMS - Scrap Hauler",
+        "key_name": "bms-scrap-hauler",
+        "category": "mineral-components",
+        "base_rate": 300,
+        "power": 0
+      },
+      {
+        "name": "Components Harvester",
+        "key_name": "miner-components",
+        "category": "mineral-components",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Components Mine",
+        "key_name": "miner-mine",
+        "category": "mineral-components",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Water Pump",
+        "key_name": "water-pump",
+        "category": "water",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Electric Water Pump",
+        "key_name": "water-pump",
+        "category": "water",
+        "base_rate": 60,
+        "power": 0.5
+      },
+      {
+        "name": "Oil Well",
+        "key_name": "oil-well",
+        "category": "oil",
+        "base_rate": 50,
+        "power": 0
+      },
+      {
+        "name": "Electric Oil Well",
+        "key_name": "electric-oil-well",
+        "category": "oil",
+        "base_rate": 75,
+        "power": 2
+      }
+    ],
+    "items": [
+      {
+        "name": "Coal",
+        "key_name": "coal",
+        "tier": -1,
+        "stack_size": 100
+      },
+      {
+        "name": "Coke",
+        "key_name": "coke",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Components",
+        "key_name": "components",
+        "tier": -1,
+        "stack_size": 100
+      },
+      {
+        "name": "Gravel",
+        "key_name": "gravel",
+        "tier": -1,
+        "stack_size": 100
+      },
+      {
+        "name": "Oil",
+        "key_name": "oil",
+        "tier": -1,
+        "stack_size": 50
+      },
+      {
+        "name": "Enriched Oil",
+        "key_name": "oil-enriched",
+        "tier": 2,
+        "stack_size": 30
+      },
+      {
+        "name": "Heavy Oil",
+        "key_name": "oil-heavy",
+        "tier": 1,
+        "stack_size": 30
+      },
+      {
+        "name": "Petrol",
+        "key_name": "petrol",
+        "tier": -1,
+        "stack_size": 50
+      },
+      {
+        "name": "Salvage",
+        "key_name": "salvage",
+        "tier": -1,
+        "stack_size": 100
+      },
+      {
+        "name": "Sulfur",
+        "key_name": "sulfur",
+        "tier": -1,
+        "stack_size": 100
+      },
+      {
+        "name": "Water",
+        "key_name": "water",
+        "tier": 2,
+        "stack_size": 50
+      },
+      {
+        "name": "Diesel",
+        "key_name": "diesel",
+        "tier": 1,
+        "stack_size": 50
+      },
+      {
+        "name": "Basic Materials",
+        "key_name": "basic-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Refined Materials",
+        "key_name": "refined-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Explosive Materials",
+        "key_name": "explosive-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Heavy Explosive Materials",
+        "key_name": "heavy-explosive-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Concrete Materials",
+        "key_name": "concrete-materials",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "Relic Materials",
+        "key_name": "relic-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Rare Materials",
+        "key_name": "rare-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Construction Materials",
+        "key_name": "construction-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Processed Construction Materials",
+        "key_name": "processed-construction-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Steel Construction Materials",
+        "key_name": "steel-construction-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Coal Assembly Materials",
+        "key_name": "coal-assembly-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Petrol Assembly Materials",
+        "key_name": "petrol-assembly-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Sulfur Assembly Materials",
+        "key_name": "sulfur-assembly-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Heavy Oil Assembly Materials",
+        "key_name": "heavy-oil-assembly-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Enriched Oil Assembly Materials",
+        "key_name": "enriched-oil-assembly-materials",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Pipe",
+        "key_name": "pipe",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "Sandbags",
+        "key_name": "sandbags",
+        "tier": 1,
+        "stack_size": 60
+      },
+      {
+        "name": "Barbed Wire",
+        "key_name": "barbed-wire",
+        "tier": 1,
+        "stack_size": 60
+      },
+      {
+        "name": "Metal Beams",
+        "key_name": "metal-beams",
+        "tier": 1,
+        "stack_size": 60
+      },
+      {
+        "name": "Flame Barrel",
+        "key_name": "flame-barrel",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "250mm Shell",
+        "key_name": "250mm-shell",
+        "tier": 1,
+        "stack_size": 100
+      },
+      {
+        "name": "3C-High Explosive Rocket",
+        "key_name": "3c-high-explosive-rocket",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "4C-Fire Rocket",
+        "key_name": "4c-fire-rocket",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "75mm Shell",
+        "key_name": "75mm-shell",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "94.5mm Shell",
+        "key_name": "94.5-shell",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "300mm Shell",
+        "key_name": "300mm-shell",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "120mm Shell",
+        "key_name": "120mm-shell",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "150mm Shell",
+        "key_name": "150mm-shell",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "Material Pallet",
+        "key_name": "material-pallet",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "00MS \"Stinger\"",
+        "key_name": "vic-stinger",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "R-5 \"Atlas\" Hauler",
+        "key_name": "vic-atlas",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "R-5b \"Sisyphus\" Hauler",
+        "key_name": "vic-sisyphus",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "R-9 \"Speartip\" Escort",
+        "key_name": "vic-speartip",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Mineseeker",
+        "key_name": "vic-mineseeker",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Railtruck",
+        "key_name": "vic-railtruck",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Linerunner",
+        "key_name": "vic-linerunner",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "H-19 \"Vulcan\"",
+        "key_name": "tank-vulcan",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "H-10 \"Pelekys\"",
+        "key_name": "tank-pelekys",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "H-8 \"Kranesca\"",
+        "key_name": "tank-kranesca",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "85K-a \"Spatha\"",
+        "key_name": "tank-spatha",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "86K-c \"Ranseur\"",
+        "key_name": "tank-ranseur",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "DAE 2a-1 \"Raptura\"",
+        "key_name": "tank-raptura",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "R-17 \"Retiarius\" Skirmisher",
+        "key_name": "rocket-retiarius",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "DAE 3b-2 \"Hades' Net\"",
+        "key_name": "rocket-hades",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "HH-b \"Hoplite\"",
+        "key_name": "rocket-hoplite",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "HH-d \"Peltast\"",
+        "key_name": "rocket-peltast",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "T5 \"Percutio\"",
+        "key_name": "motor-percutio",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "T8 \"Gemini\"",
+        "key_name": "motor-gemini",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "T20 \"Ixion\" Tankette",
+        "key_name": "motor-ixion",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "T14 \"Vesta\" Tankette",
+        "key_name": "motor-vesta",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "UV-5c \"Odyssey\"",
+        "key_name": "motor-odyssey",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "UV-24 \"Icarus\"",
+        "key_name": "motor-icarus",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Scrap Hauler",
+        "key_name": "field-scrap-hauler",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "HC-2 \"Scorpion\"",
+        "key_name": "field-scorpion",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "AB-11 \"Doru\"",
+        "key_name": "field-doru",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "40-45 \"Smelter\"",
+        "key_name": "field-smelter",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "945g \"Stygian Bolt\"",
+        "key_name": "weapon-stygian-bolt",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "85V-g \"Talos\"",
+        "key_name": "weapon-talos",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Blackbolt",
+        "key_name": "train-blackbolt",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Rockhold",
+        "key_name": "train-rockhold",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Holdout",
+        "key_name": "train-holdout",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "BMS Longrider",
+        "key_name": "train-longrider",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "Aegis Steelbreaker K5a",
+        "key_name": "train-assembly-aegis",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "O-75b \"Ares\"",
+        "key_name": "heavy-tank-ares",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "Lance-36",
+        "key_name": "heavy-tank-lance",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "03MM \"Caster\"",
+        "key_name": "vic-caster",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "R-1 Hauler",
+        "key_name": "vic-hauler",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "T3 \"Xiphos\"",
+        "key_name": "vic-xiphos",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "T12 \"Actaeon\" Tankette",
+        "key_name": "vic-actaeon",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "UV-5a \"Argonaut\"",
+        "key_name": "vic-argonaut",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "HH-a \"Javelin\"",
+        "key_name": "vic-javelin",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "HC-7 \"Ballista\"",
+        "key_name": "tank-ballista",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "AB-8 \"Acheron\"",
+        "key_name": "vic-acheron",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "AA-2 Battering Ram",
+        "key_name": "vic-battering-ram",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "H-5 \"Hatchet\"",
+        "key_name": "tank-hatchet",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "85K-b \"Falchion\"",
+        "key_name": "tank-falchion",
+        "tier": 1,
+        "stack_size": 1
+      },
+      {
+        "name": "86K-a \"Bardiche\"",
+        "key_name": "tank-bardiche",
+        "tier": 1,
+        "stack_size": 1
+      }
+    ],
+    "recipes": [
+      {
+        "name": "Coke",
+        "key_name": "coke",
+        "category": "coal-refining1",
+        "time": 120,
+        "power": 3,
+        "ingredients": [ [ "coal", 200 ] ],
+        "product": [ "coke", 180 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Coke",
+        "key_name": "alt-coke",
+        "category": "coal-refining2",
+        "time": 120,
+        "power": 3,
+        "ingredients": [ [ "coal", 200 ] ],
+        "product": [ "coke", 180 ],
+        "byproduct": [ "sulfur", 15 ]
+      },
+      {
+        "name": "Alternate: Concrete",
+        "key_name": "alt-concrete",
+        "category": "coal-refining3",
+        "time": 120,
+        "power": 4,
+        "ingredients": [ [ "coal", 300 ], [ "water", 75 ] ],
+        "product": [ "concrete", 1 ],
+        "byproduct": [ "oil", 50 ]
+      },
+      {
+        "name": "Alternate: Coke",
+        "key_name": "alt-coke",
+        "category": "coal-refining4",
+        "time": 120,
+        "power": 3,
+        "ingredients": [ [ "coal", 300 ], [ "water", 150 ] ],
+        "product": [ "coke", 260 ],
+        "byproduct": [ "heavy-oil", 60 ]
+      },
+      {
+        "name": "Concrete",
+        "key_name": "concrete",
+        "category": "concrete1",
+        "time": 120,
+        "power": 0,
+        "ingredients": [ [ "components", 10 ] ],
+        "product": [ "concrete", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Gravel",
+        "key_name": "gravel",
+        "category": "refinery1",
+        "time": 24,
+        "power": 0,
+        "ingredients": [ [ "coal", 5 ] ],
+        "product": [ "gravel", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Petrol",
+        "key_name": "petrol",
+        "category": "oil-refining1",
+        "time": 150,
+        "power": 1,
+        "ingredients": [ [ "oil", 150 ] ],
+        "product": [ "petrol", 150 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Petrol",
+        "key_name": "alt-petrol",
+        "category": "oil-refining2",
+        "time": 150,
+        "power": 1,
+        "ingredients": [ [ "oil", 120 ], [ "water", 30 ] ],
+        "product": [ "petrol", 150 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Heavy Oil",
+        "key_name": "oil-heavy",
+        "category": "oil-refining3",
+        "time": 160,
+        "power": 1.5,
+        "ingredients": [ [ "oil", 150 ] ],
+        "product": [ "oil-heavy", 90 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Enriched Oil",
+        "key_name": "oil-enriched",
+        "category": "oil-refining4",
+        "time": 160,
+        "power": 2,
+        "ingredients": [ [ "oil-heavy", 90 ], [ "sulfur", 20 ] ],
+        "product": [ "oil-enriched", 90 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Construction Materials",
+        "key_name": "construction-materials",
+        "category": "materials-factory1",
+        "time": 25,
+        "power": 2,
+        "ingredients": [ [ "salvage", 20 ] ],
+        "product": [ "construction-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Construction Materials",
+        "key_name": "alt-construction-materials",
+        "category": "materials-factory3",
+        "time": 25,
+        "power": 4,
+        "ingredients": [ [ "salvage", 20 ], [ "petrol", 25 ] ],
+        "product": [ "construction-materials", 3 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Construction Materials",
+        "key_name": "alt-construction-materials",
+        "category": "materials-factory4",
+        "time": 25,
+        "power": 4,
+        "ingredients": [ [ "salvage", 20 ], [ "coke", 25 ] ],
+        "product": [ "construction-materials", 3 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Construction Materials",
+        "key_name": "alt-construction-materials",
+        "category": "materials-factory5",
+        "time": 25,
+        "power": 2,
+        "ingredients": [ [ "salvage", 25 ] ],
+        "product": [ "construction-materials", 1 ],
+        "byproduct": [ "sandbags", 1 ]
+      },
+      {
+        "name": "Alternate: Construction Materials",
+        "key_name": "alt-construction-materials",
+        "category": "materials-factory5",
+        "time": 25,
+        "power": 2,
+        "ingredients": [ [ "salvage", 25 ] ],
+        "product": [ "construction-materials", 1 ],
+        "byproduct": [ "barbed-wire", 1 ]
+      },
+      {
+        "name": "Coal Assembly Materials",
+        "key_name": "coal-assembly-materials",
+        "category": "materials-factory2",
+        "time": 60,
+        "power": 2,
+        "ingredients": [ [ "salvage", 20 ], [ "coke", 180 ] ],
+        "product": [ "coal-assembly-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Petrol Assembly Materials",
+        "key_name": "petrol-assembly-materials",
+        "category": "materials-factory2",
+        "time": 60,
+        "power": 2,
+        "ingredients": [ [ "salvage", 20 ], [ "petrol", 150 ] ],
+        "product": [ "petrol-assembly-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Processed Construction Materials",
+        "key_name": "processed-construction-materials",
+        "category": "metalworks1",
+        "time": 60,
+        "power": 5,
+        "ingredients": [
+          [ "construction-materials", 3 ],
+          [ "components", 20 ]
+        ],
+        "product": [ "processed-construction-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Pipe",
+        "key_name": "pipe",
+        "category": "metalworks1",
+        "time": 120,
+        "power": 5,
+        "ingredients": [ [ "processed-construction-materials", 3 ] ],
+        "product": [ "pipe", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Heavy Oil Assembly Materials",
+        "key_name": "heavy-oil-assembly-materials",
+        "category": "metalworks2",
+        "time": 120,
+        "power": 5,
+        "ingredients": [
+          [ "processed-construction-materials", 1 ],
+          [ "oil-heavy", 66 ]
+        ],
+        "product": [ "heavy-oil-assembly-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Sulfur Assembly Materials",
+        "key_name": "sulfur-assembly-materials",
+        "category": "metalworks2",
+        "time": 120,
+        "power": 5,
+        "ingredients": [ [ "construction-materials", 3 ], [ "sulfur", 20 ] ],
+        "product": [ "sulfur-assembly-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Processed Construction Materials",
+        "key_name": "alt-processed-construction-materials",
+        "category": "metalworks2",
+        "time": 60,
+        "power": 8,
+        "ingredients": [
+          [ "construction-materials", 3 ],
+          [ "components", 56 ],
+          [ "oil-heavy", 6 ]
+        ],
+        "product": [ "processed-construction-materials", 3 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Processed Construction Materials",
+        "key_name": "alt-processed-construction-materials",
+        "category": "metalworks3",
+        "time": 60,
+        "power": 5,
+        "ingredients": [
+          [ "construction-materials", 3 ],
+          [ "components", 20 ]
+        ],
+        "product": [ "processed-construction-materials", 1 ],
+        "byproduct": [ "metal-beams", 1 ]
+      },
+      {
+        "name": "Components",
+        "key_name": "components",
+        "category": "metalworks3",
+        "time": 90,
+        "power": 4,
+        "ingredients": [ [ "salvage", 200 ] ],
+        "product": [ "components", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Steel Construction Materials",
+        "key_name": "steel-construction-materials",
+        "category": "metalworks4",
+        "time": 160,
+        "power": 9,
+        "ingredients": [
+          [ "processed-construction-materials", 3 ],
+          [ "components", 20 ],
+          [ "oil-enriched", 6 ]
+        ],
+        "product": [ "steel-construction-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Alternate: Steel Construction Materials",
+        "key_name": "alt-steel-construction-materials",
+        "category": "metalworks4",
+        "time": 160,
+        "power": 8,
+        "ingredients": [
+          [ "processed-construction-materials", 3 ],
+          [ "components", 20 ],
+          [ "sulfur", 20 ],
+          [ "oil-enriched", 6 ]
+        ],
+        "product": [ "steel-construction-materials", 3 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Enriched Oil Assembly Materials",
+        "key_name": "enriched-oil-assembly-materials",
+        "category": "metalworks4",
+        "time": 160,
+        "power": 8,
+        "ingredients": [
+          [ "steel-construction-materials", 1 ],
+          [ "oil-enriched", 6 ]
+        ],
+        "product": [ "enriched-oil-assembly-materials", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Flame Barrel",
+        "key_name": "flame-barrel",
+        "category": "ammunition-factory1",
+        "time": 25,
+        "power": 4,
+        "ingredients": [
+          [ "heavy-explosive-materials", 1 ],
+          [ "construction-materials", 1 ]
+        ],
+        "product": [ "flame-barrel", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "250mm Shell",
+        "key_name": "250mm-shell",
+        "category": "ammunition-factory1",
+        "time": 30,
+        "power": 4,
+        "ingredients": [
+          [ "heavy-explosive-materials", 6 ],
+          [ "construction-materials", 5 ]
+        ],
+        "product": [ "250mm-shell", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "3C-High Explosive Rocket",
+        "key_name": "3c-high-explosive-rocket",
+        "category": "ammunition-factory2",
+        "time": 25,
+        "power": 4,
+        "ingredients": [
+          [ "heavy-explosive-materials", 1 ],
+          [ "construction-materials", 2 ]
+        ],
+        "product": [ "3c-high-explosive-rocket", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "4C-Fire Rocket",
+        "key_name": "4c-fire-rocket",
+        "category": "ammunition-factory2",
+        "time": 25,
+        "power": 4,
+        "ingredients": [
+          [ "heavy-explosive-materials", 1 ],
+          [ "construction-materials", 2 ]
+        ],
+        "product": [ "4c-fire-rocket", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "75mm Shell",
+        "key_name": "75mm-shell",
+        "category": "ammunition-factory3",
+        "time": 25,
+        "power": 4,
+        "ingredients": [
+          [ "heavy-explosive-materials", 2 ],
+          [ "construction-materials", 2 ]
+        ],
+        "product": [ "75mm-shell", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "94.5mm Shell",
+        "key_name": "94.5-shell",
+        "category": "ammunition-factory3",
+        "time": 25,
+        "power": 4,
+        "ingredients": [
+          [ "heavy-explosive-materials", 2 ],
+          [ "construction-materials", 2 ]
+        ],
+        "product": [ "94.5-shell", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "300mm Shell",
+        "key_name": "300mm-shell",
+        "category": "ammunition-factory3",
+        "time": 25,
+        "power": 6,
+        "ingredients": [
+          [ "heavy-explosive-materials", 6 ],
+          [ "construction-materials", 4 ]
+        ],
+        "product": [ "300mm-shell", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "120mm Shell",
+        "key_name": "120mm-shell",
+        "category": "ammunition-factory3",
+        "time": 15,
+        "power": 4,
+        "ingredients": [
+          [ "explosive-materials", 3 ],
+          [ "construction-materials", 2 ]
+        ],
+        "product": [ "120mm-shell", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "150mm Shell",
+        "key_name": "150mm-shell",
+        "category": "ammunition-factory3",
+        "time": 20,
+        "power": 4,
+        "ingredients": [
+          [ "heavy-explosive-materials", 2 ],
+          [ "construction-materials", 3 ]
+        ],
+        "product": [ "150mm-shell", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "Material Pallet",
+        "key_name": "material-pallet",
+        "category": "light-vehicle-factory1",
+        "time": 5,
+        "power": 2,
+        "ingredients": [ [ "basic-materials", 25 ] ],
+        "product": [ "material-pallet", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "00MS \"Stinger\"",
+        "key_name": "vic-stinger",
+        "category": "light-vehicle-factory1",
+        "time": 180,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 5 ],
+          [ "vic-caster", 1 ]
+        ],
+        "product": [ "vic-stinger", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "R-5 \"Atlas\" Hauler",
+        "key_name": "vic-atlas",
+        "category": "light-vehicle-factory1",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 10 ],
+          [ "vic-hauler", 1 ]
+        ],
+        "product": [ "vic-atlas", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "R-5b \"Sisyphus\" Hauler",
+        "key_name": "vic-sisyphus",
+        "category": "light-vehicle-factory1",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 10 ],
+          [ "vic-hauler", 1 ]
+        ],
+        "product": [ "vic-sisyphus", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "R-9 \"Speartip\" Escort",
+        "key_name": "vic-speartip",
+        "category": "light-vehicle-factory1",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 10 ],
+          [ "vic-hauler", 1 ]
+        ],
+        "product": [ "vic-speartip", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Mineseeker",
+        "key_name": "vic-mineseeker",
+        "category": "light-vehicle-factory1",
+        "time": 900,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 125 ],
+          [ "coal-assembly-materials", 10 ],
+          [ "petrol-assembly-materials", 20 ]
+        ],
+        "product": [ "vic-mineseeker", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Railtruck",
+        "key_name": "vic-railtruck",
+        "category": "light-vehicle-factory1",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 35 ],
+          [ "coal-assembly-materials", 15 ],
+          [ "petrol-assembly-materials", 5 ]
+        ],
+        "product": [ "vic-railtruck", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Linerunner",
+        "key_name": "vic-linerunner",
+        "category": "light-vehicle-factory1",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 35 ],
+          [ "coal-assembly-materials", 15 ],
+          [ "petrol-assembly-materials", 5 ]
+        ],
+        "product": [ "vic-linerunner", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "T5 \"Percutio\"",
+        "key_name": "motor-percutio",
+        "category": "light-vehicle-factory2",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 10 ],
+          [ "coal-assembly-materials", 10 ],
+          [ "vic-xiphos", 1 ]
+        ],
+        "product": [ "motor-percutio", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "T8 \"Gemini\"",
+        "key_name": "motor-gemini",
+        "category": "light-vehicle-factory2",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 20 ],
+          [ "coal-assembly-materials", 10 ],
+          [ "vic-xiphos", 1 ]
+        ],
+        "product": [ "motor-gemini", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "T20 \"Ixion\" Tankette",
+        "key_name": "motor-ixion",
+        "category": "light-vehicle-factory2",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 20 ],
+          [ "coal-assembly-materials", 15 ],
+          [ "vic-actaeon", 1 ]
+        ],
+        "product": [ "motor-ixion", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "T14 \"Vesta\" Tankette",
+        "key_name": "motor-vesta",
+        "category": "light-vehicle-factory2",
+        "time": 600,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 10 ],
+          [ "coal-assembly-materials", 15 ],
+          [ "vic-actaeon", 1 ]
+        ],
+        "product": [ "motor-vesta", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "UV-5c \"Odyssey\"",
+        "key_name": "motor-odyssey",
+        "category": "light-vehicle-factory2",
+        "time": 180,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 5 ],
+          [ "vic-argonaut", 1 ]
+        ],
+        "product": [ "motor-odyssey", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "UV-24 \"Icarus\"",
+        "key_name": "motor-icarus",
+        "category": "light-vehicle-factory2",
+        "time": 180,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 5 ],
+          [ "petrol-assembly-materials", 10 ],
+          [ "vic-argonaut", 1 ]
+        ],
+        "product": [ "motor-icarus", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "R-17 \"Retiarius\" Skirmisher",
+        "key_name": "rocket-retiarius",
+        "category": "light-vehicle-factory3",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 70 ],
+          [ "coal-assembly-materials", 10 ],
+          [ "sulfur-assembly-materials", 15 ],
+          [ "vic-hauler", 1 ]
+        ],
+        "product": [ "rocket-retiarius", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "DAE 3b-2 \"Hades' Net\"",
+        "key_name": "rocket-hades",
+        "category": "light-vehicle-factory3",
+        "time": 600,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 20 ],
+          [ "petrol-assembly-materials", 15 ],
+          [ "heavy-oil-assembly-materials", 10 ]
+        ],
+        "product": [ "rocket-hades", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "HH-b \"Hoplite\"",
+        "key_name": "rocket-hoplite",
+        "category": "light-vehicle-factory3",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 5 ],
+          [ "heavy-oil-assembly-materials", 10 ],
+          [ "vic-javelin", 1 ]
+        ],
+        "product": [ "rocket-hoplite", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "HH-d \"Peltast\"",
+        "key_name": "rocket-peltast",
+        "category": "light-vehicle-factory3",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 10 ],
+          [ "petrol-assembly-materials", 5 ],
+          [ "heavy-oil-assembly-materials", 5 ],
+          [ "vic-javelin", 1 ]
+        ],
+        "product": [ "rocket-peltast", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Scrap Hauler",
+        "key_name": "field-scrap-hauler",
+        "category": "light-vehicle-factory4",
+        "time": 900,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 90 ],
+          [ "heavy-oil-assembly-materials", 25 ]
+        ],
+        "product": [ "field-scrap-hauler", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "HC-2 \"Scorpion\"",
+        "key_name": "field-scorpion",
+        "category": "light-vehicle-factory4",
+        "time": 180,
+        "power": 2,
+        "ingredients": [
+          [ "construction-materials", 15 ],
+          [ "tank-ballista", 1 ]
+        ],
+        "product": [ "field-scorpion", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "AB-11 \"Doru\"",
+        "key_name": "field-doru",
+        "category": "light-vehicle-factory4",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 10 ],
+          [ "sulfur-assembly-materials", 5 ],
+          [ "vic-acheron", 1 ]
+        ],
+        "product": [ "field-doru", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "40-45 \"Smelter\"",
+        "key_name": "field-smelter",
+        "category": "light-vehicle-factory4",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 10 ],
+          [ "heavy-oil-assembly-materials", 10 ],
+          [ "vic-battering-ram", 1 ]
+        ],
+        "product": [ "field-smelter", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "H-19 \"Vulcan\"",
+        "key_name": "tank-vulcan",
+        "category": "light-vehicle-factory5",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 35 ],
+          [ "petrol-assembly-materials", 20 ],
+          [ "sulfur-assembly-materials", 10 ],
+          [ "tank-hatchet", 1 ]
+        ],
+        "product": [ "tank-vulcan", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "H-10 \"Pelekys\"",
+        "key_name": "tank-pelekys",
+        "category": "light-vehicle-factory5",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 15 ],
+          [ "petrol-assembly-materials", 20 ],
+          [ "sulfur-assembly-materials", 10 ],
+          [ "tank-hatchet", 1 ]
+        ],
+        "product": [ "tank-pelekys", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "H-8 \"Kranesca\"",
+        "key_name": "tank-kranesca",
+        "category": "light-vehicle-factory5",
+        "time": 300,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 10 ],
+          [ "coal-assembly-materials", 20 ],
+          [ "heavy-oil-assembly-materials", 10 ],
+          [ "tank-hatchet", 1 ]
+        ],
+        "product": [ "tank-kranesca", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "85K-a \"Spatha\"",
+        "key_name": "tank-spatha",
+        "category": "light-vehicle-factory5",
+        "time": 420,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 15 ],
+          [ "coal-assembly-materials", 10 ],
+          [ "heavy-oil-assembly-materials", 15 ],
+          [ "tank-falchion", 1 ]
+        ],
+        "product": [ "tank-spatha", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "86K-c \"Ranseur\"",
+        "key_name": "tank-ranseur",
+        "category": "light-vehicle-factory5",
+        "time": 420,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 20 ],
+          [ "petrol-assembly-materials", 10 ],
+          [ "sulfur-assembly-materials", 20 ],
+          [ "tank-bardiche", 1 ]
+        ],
+        "product": [ "tank-ranseur", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "DAE 2a-1 \"Raptura\"",
+        "key_name": "tank-raptura",
+        "category": "light-vehicle-factory5",
+        "time": 600,
+        "power": 2,
+        "ingredients": [
+          [ "processed-construction-materials", 155 ],
+          [ "coal-assembly-materials", 10 ],
+          [ "heavy-oil-assembly-materials", 25 ]
+        ],
+        "product": [ "tank-raptura", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Blackbolt",
+        "key_name": "train-blackbolt",
+        "category": "large-assembly-factory1",
+        "time": 28800,
+        "power": 8,
+        "ingredients": [
+          [ "processed-construction-materials", 200 ],
+          [ "coal-assembly-materials", 60 ],
+          [ "heavy-oil-assembly-materials", 50 ]
+        ],
+        "product": [ "train-blackbolt", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Rockhold",
+        "key_name": "train-rockhold",
+        "category": "large-assembly-factory1",
+        "time": 14400,
+        "power": 8,
+        "ingredients": [
+          [ "processed-construction-materials", 50 ],
+          [ "petrol-assembly-materials", 45 ],
+          [ "sulfur-assembly-materials", 20 ]
+        ],
+        "product": [ "train-rockhold", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Holdout",
+        "key_name": "train-holdout",
+        "category": "large-assembly-factory1",
+        "time": 14400,
+        "power": 8,
+        "ingredients": [
+          [ "processed-construction-materials", 50 ],
+          [ "petrol-assembly-materials", 45 ],
+          [ "sulfur-assembly-materials", 20 ]
+        ],
+        "product": [ "train-holdout", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      },
+      {
+        "name": "BMS Longrider",
+        "key_name": "train-longrider",
+        "category": "large-assembly-factory1",
+        "time": 14400,
+        "power": 8,
+        "ingredients": [
+          [ "processed-construction-materials", 50 ],
+          [ "petrol-assembly-materials", 45 ],
+          [ "sulfur-assembly-materials", 20 ]
+        ],
+        "product": [ "train-longrider", 1 ],
+        "byproduct": [ "salvage", 999 ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "salvage",
+        "key_name": "mineral-salvage"
+      },
+      {
+        "name": "coal",
+        "key_name": "mineral-coal"
+      },
+      {
+        "name": "components",
+        "key_name": "mineral-components"
+      },
+      {
+        "name": "sulfur",
+        "key_name": "mineral-sulfur"
+      },
+      {
+        "name": "oil",
+        "key_name": "oil"
+      },
+      {
+        "name": "water",
+        "key_name": "water"
+      }
+    ]
+  }
