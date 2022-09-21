@@ -20,17 +20,20 @@ export const DEFAULT_COUNT_PRECISION = 2
 let seconds = one
 let minutes = Rational.from_float(60)
 let hours = Rational.from_float(3600)
+let day = Rational.from_float(86400)
 
 let displayRates = new Map([
     ["s", seconds],
     ["m", minutes],
-    ["h", hours],
+    ["h", hours],    
+    ["d", day],
 ])
 
 export let longRateNames = new Map([
     ["s", "second"],
     ["m", "minute"],
-    ["h", "hour"],
+    ["h", "hour"],    
+    ["d", "day"],
 ])
 
 export class Formatter {
