@@ -841,6 +841,12 @@
       "stack_size": 1
     },
     {
+      "name": "Tempest Cannon RA-2",
+      "key_name": "train-assembly-tempest",
+      "tier": 1,
+      "stack_size": 1
+    },
+    {
       "name": "O-75b Ares",
       "key_name": "heavy-tank-ares",
       "tier": 1,
@@ -956,16 +962,28 @@
       "product": [ "weapon-talos", 1 ],
       "byproduct": [ "salvage", 999 ]
     },
+    {
+      "name": "Aegis Steelbreaker K5a",
+      "key_name": "train-assembly-aegis",
+      "category": "large-assembly-factory1",
+      "time": 64800,
+      "power": 8,
+      "ingredients": [
+        [ "steel-construction-materials", 30 ],
+        [ "heavy-oil-assembly-materials", 30 ],
+        [ "sulfur-assembly-materials", 30 ]
+      ],
   {
-    "name": "Aegis Steelbreaker K5a",
-    "key_name": "train-assembly-aegis",
-    "category": "large-assembly-factory1",
+    "name": "Tempest Cannon RA-2",
+    "key_name": "train-assembly-tempest",
+    "category": "large-assembly-factory2",
     "time": 64800,
     "power": 8,
     "ingredients": [
-      [ "steel-construction-materials", 30 ],
+      [ "steel-construction-materials", 125 ],
       [ "heavy-oil-assembly-materials", 30 ],
-      [ "sulfur-assembly-materials", 30 ]
+      [ "enriched-oil-assembly-materials", 40 ],
+      [ "sulfur-assembly-materials", 45 ]
     ],
     "product": [ "train-assembly-aegis", 1 ],
     "byproduct": [ "salvage", 999 ]
