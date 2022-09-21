@@ -19,17 +19,17 @@ import { BuildTarget } from "./target.js"
 import { Totals } from "./totals.js"
 import { renderTotals } from "./visualize.js"
 
-const DEFAULT_ITEM_KEY = "nuclear-fuel-rod"
+const DEFAULT_ITEM_KEY = "coke"
 
-let minerCategories = new Set(["mineral", "oil", "water", "gift-tree", "fluid", "manual"])
+let minerCategories = new Set(["mineral-salvage","mineral-coal","mineral-components","mineral-sulfur","mineral", "oil", "water", "gift-tree", "fluid", "manual"])
 
 export let resourcePurities = [
-    {key: "0", name: "Impure", factor: half},
-    {key: "1", name: "Normal", factor: one},
-    {key: "2", name: "Pure", factor: Rational.from_float(2)},
+    // {key: "0", name: "Impure", factor: half},
+    {key: "1", name: "", factor: one},
+    // {key: "2", name: "Pure", factor: Rational.from_float(2)},
 ]
 
-export let DEFAULT_PURITY = resourcePurities[1]
+export let DEFAULT_PURITY = resourcePurities[0]
 
 export let DEFAULT_BELT = "belt1"
 export let DEFAULT_PIPE = "pipe1"

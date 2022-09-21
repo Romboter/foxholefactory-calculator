@@ -98,7 +98,7 @@ export class BuildTarget {
 
         this.buildingInput = element.append("input")
             .on("change", changeBuildingCountHandler(this))
-            .attr("type", "text")
+            .attr("type", "number")
             .attr("value", 1)
             .attr("size", 3)
             .attr("title", "Enter a value to specify the number of buildings. The rate will be determined based on the number of items a single building can make.")
@@ -110,7 +110,7 @@ export class BuildTarget {
 
         this.rateInput = element.append("input")
             .on("change", changeRateHandler(this))
-            .attr("type", "text")
+            .attr("type", "number")
             .attr("value", "")
             .attr("size", 5)
             .attr("title", "Enter a value to specify the rate. The number of buildings will be determined based on the rate.")

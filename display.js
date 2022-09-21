@@ -77,9 +77,9 @@ export function displayItems(spec, totals, ignore) {
 
     let headers = [
         new Header("items/" + spec.format.rateName, 2),
-        new Header("belts/pipes", 2),
+        // new Header("belts/pipes", 2),
         new Header("buildings", 2),
-        new Header("overclock", powerShardsUsed ? 3 : 1),
+        // new Header("overclock", powerShardsUsed ? 3 : 1),
         new Header("power", 1),
     ]
     let totalCols = 0
@@ -115,17 +115,17 @@ export function displayItems(spec, totals, ignore) {
         .append("tt")
             .classed("item-rate", true)
     // belts
-    let beltCell = row.append("td")
-        .classed("pad", true)
-    beltCell.append("img")
-        .classed("icon belt-icon", true)
-        .attr("width", 32)
-        .attr("height", 32)
-    beltCell.append(d => new Text(" \u00d7"))
-    row.append("td")
-        .classed("right-align", true)
-        .append("tt")
-            .classed("belt-count", true)
+    // let beltCell = row.append("td")
+    //     .classed("pad", true)
+    // beltCell.append("img")
+    //     .classed("icon belt-icon", true)
+    //     .attr("width", 32)
+    //     .attr("height", 32)
+    // beltCell.append(d => new Text(" \u00d7"))
+    // row.append("td")
+    //     .classed("right-align", true)
+    //     .append("tt")
+    //         .classed("belt-count", true)
     // buildings
     let buildingCell = row.append("td")
         .classed("pad building", true)
@@ -144,16 +144,16 @@ export function displayItems(spec, totals, ignore) {
             .attr("colspan", 4)
     */
     // overclock
-    let overclockCell = row.append("td")
-        .classed("pad building overclock", true)
-    overclockCell.append("input")
-        .classed("overclock", true)
-        .attr("type", "number")
-        .attr("title", "")
-        .attr("min", 1)
-        .attr("max", 250)
-        .on("input", changeOverclock)
-    overclockCell.append(() => new Text("%"))
+    // let overclockCell = row.append("td")
+    //     .classed("pad building overclock", true)
+    // overclockCell.append("input")
+    //     .classed("overclock", true)
+    //     .attr("type", "number")
+    //     .attr("title", "")
+    //     .attr("min", 1)
+    //     .attr("max", 250)
+    //     .on("input", changeOverclock)
+    // overclockCell.append(() => new Text("%"))
 
     // power
     row.append("td")

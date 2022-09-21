@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Satisfactory Calculator</title>
+    <title>Foxtorio Calculator</title>
     <link rel="stylesheet" type="text/css" href="calc.css">
     <link rel="stylesheet" type="text/css" href="dropdown.css">
     <link rel="icon" type="image/x-icon" href="images/icon.png">
@@ -73,17 +73,17 @@ limitations under the License.-->
         <tbody></tbody>
         <tfoot>
             <tr class="power">
-                <td class="right-align label"><b>total average power: </b></td>
+                <td class="right-align label"><b>total power: </b></td>
                 <td class="right-align pad"><tt></tt></td>
             </tr>
-            <tr class="power">
+            <!-- <tr class="power">
                 <td class="right-align label"><b>total peak power: </b></td>
                 <td class="right-align pad"><tt></tt></td>
             </tr>
             <tr class="power-shard">
                 <td class="right-align label"><b>power shards needed: </b></td>
                 <td class="right-align pad"><tt></tt></td>
-            </tr>
+            </tr> -->
         </tfoot>
         </table>
     </div>
@@ -96,9 +96,7 @@ limitations under the License.-->
             <tr class="setting-row">
             <td class="setting-label top">Datafile:</td>
             <td><select name="datafile" id="datafile" onchange="handlers.changeDataFile(event)">
-                <option value="data/data.json">Version0.3.6.2</option>
-                <option value="data/update4.json">Version0.4.3.1</option>
-                <option value="data/update5.json" selected>Version0.5.1.0</option>
+                <option value="data/foxhole.json" selected>Colonials</option>
               </select></td>
             </tr>
 
@@ -118,7 +116,7 @@ limitations under the License.-->
             </tr>
 
         <tr class="setting-section">
-        <td colspan="2"><span>Factory</span><hr></td>
+        <!-- <td colspan="2"><span>Factory</span><hr></td>
         </tr>
 
             <tr class="setting-row">
@@ -128,7 +126,7 @@ limitations under the License.-->
             <tr class="setting-row">
             <td class="setting-label">Pipe:</td>
             <td><span id="pipe_selector"></span></td>
-            </tr>
+            </tr> -->
 
         <tr class="setting-section">
         <td colspan="2"><span>Recipes</span><hr></td>
@@ -153,8 +151,7 @@ limitations under the License.-->
     <div id="about_tab" class="tab">
     <div class = "about-content">
         <p>This calculator is forked from Nomsplease (<a href="https://github.com/Nomsplease/satisfactory-calculator">archived GitRepo</a>) yet a fork from Kirk McDonald (<a href="https://github.com/KirkMcDonald/satisfactory-calculator">GitRepo</a>) - original work licensed under Apache License 2.0.</p>
-        <p>Source for this derived work by myself (tadeaustria) can be found <a href="https://github.com/tadeaustria/satisfactory-calculator">here</a>.</p>
-        <p>Up to date with Version 0.5.1.0 of the game.</p>
+        <!-- <p>Source for this derived work by myself (tadeaustria) can be found <a href="https://github.com/tadeaustria/satisfactory-calculator">here</a>.</p> -->
     </div>
     </div>
 </body>
