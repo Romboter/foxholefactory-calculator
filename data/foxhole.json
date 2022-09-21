@@ -369,7 +369,7 @@
     },
     {
       "name": "Electric Water Pump",
-      "key_name": "water-pump",
+      "key_name": "electric-water-pump",
       "category": "water",
       "base_rate": 72,
       "power": 0.5
