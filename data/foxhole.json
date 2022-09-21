@@ -926,6 +926,36 @@
     }
   ],
   "recipes": [
+    {
+      "name": "945g Stygian Bolt",
+      "key_name": "weapon-stygian-bolt",
+      "category": "light-vehicle-factory6",
+      "time": 420,
+      "power": 2,
+      "ingredients": [
+        [ "steel-construction-materials", 15 ],
+        [ "petrol-assembly-materials", 20 ],
+        [ "sulfur-assembly-materials", 15 ],
+        [ "vic-battering-ram", 1 ]
+      ],
+      "product": [ "weapon-talos", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
+    {
+      "name": "85V-g Talos",
+      "key_name": "weapon-talos",
+      "category": "light-vehicle-factory6",
+      "time": 420,
+      "power": 2,
+      "ingredients": [
+        [ "steel-construction-materials", 5 ],
+        [ "coal-assembly-materials", 10 ],
+        [ "heavy-oil-assembly-materials", 15 ],
+        [ "vic-falchion", 1 ]
+      ],
+      "product": [ "weapon-talos", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
   {
     "name": "Aegis Steelbreaker K5a",
     "key_name": "train-assembly-aegis",
