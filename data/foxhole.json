@@ -371,7 +371,7 @@
       "name": "Electric Water Pump",
       "key_name": "water-pump",
       "category": "water",
-      "base_rate": 60,
+      "base_rate": 72,
       "power": 0.5
     },
     {
@@ -385,7 +385,7 @@
       "name": "Electric Oil Well",
       "key_name": "electric-oil-well",
       "category": "oil",
-      "base_rate": 75,
+      "base_rate": 112.5,
       "power": 2
     }
   ],
