@@ -973,6 +973,9 @@
         [ "heavy-oil-assembly-materials", 30 ],
         [ "sulfur-assembly-materials", 30 ]
       ],
+      "product": [ "train-assembly-aegis", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
   {
     "name": "Tempest Cannon RA-2",
     "key_name": "train-assembly-tempest",
@@ -985,7 +988,7 @@
       [ "enriched-oil-assembly-materials", 40 ],
       [ "sulfur-assembly-materials", 45 ]
     ],
-    "product": [ "train-assembly-aegis", 1 ],
+    "product": [ "train-assembly-tempest", 1 ],
     "byproduct": [ "salvage", 999 ]
   },
     {
