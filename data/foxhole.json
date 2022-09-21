@@ -1265,10 +1265,10 @@
       "name": "Enriched Oil",
       "key_name": "oil-enriched",
       "category": "oil-refining4",
-      "time": 160,
-      "power": 2,
-      "ingredients": [ [ "oil-heavy", 90 ], [ "sulfur", 20 ] ],
-      "product": [ "oil-enriched", 90 ],
+      "time": 200,
+      "power": 6,
+      "ingredients": [ [ "oil-heavy", 55 ], [ "sulfur", 60 ] ],
+      "product": [ "oil-enriched", 30 ],
       "byproduct": [ "salvage", 999 ]
     },
     {
@@ -1277,7 +1277,7 @@
       "category": "materials-factory1",
       "time": 25,
       "power": 2,
-      "ingredients": [ [ "salvage", 20 ] ],
+      "ingredients": [ [ "salvage", 10 ] ],
       "product": [ "construction-materials", 1 ],
       "byproduct": [ "salvage", 999 ]
     },
@@ -1287,7 +1287,7 @@
       "category": "materials-factory3",
       "time": 25,
       "power": 4,
-      "ingredients": [ [ "salvage", 20 ], [ "petrol", 25 ] ],
+      "ingredients": [ [ "salvage", 15 ], [ "petrol", 25 ] ],
       "product": [ "construction-materials", 3 ],
       "byproduct": [ "salvage", 999 ]
     },
@@ -1297,7 +1297,7 @@
       "category": "materials-factory4",
       "time": 25,
       "power": 4,
-      "ingredients": [ [ "salvage", 20 ], [ "coke", 25 ] ],
+      "ingredients": [ [ "salvage", 15 ], [ "coke", 25 ] ],
       "product": [ "construction-materials", 3 ],
       "byproduct": [ "salvage", 999 ]
     },
@@ -1309,7 +1309,7 @@
       "power": 2,
       "ingredients": [ [ "salvage", 25 ] ],
       "product": [ "construction-materials", 1 ],
-      "byproduct": [ "sandbags", 1 ]
+      "byproduct": [ "sandbags", 5 ]
     },
     {
       "name": "Alternate: Construction Materials",
@@ -1319,7 +1319,7 @@
       "power": 2,
       "ingredients": [ [ "salvage", 25 ] ],
       "product": [ "construction-materials", 1 ],
-      "byproduct": [ "barbed-wire", 1 ]
+      "byproduct": [ "barbed-wire", 15 ]
     },
     {
       "name": "Coal Assembly Materials",
@@ -1327,7 +1327,7 @@
       "category": "materials-factory2",
       "time": 60,
       "power": 2,
-      "ingredients": [ [ "salvage", 20 ], [ "coke", 180 ] ],
+      "ingredients": [ [ "salvage", 15 ], [ "coke", 75 ] ],
       "product": [ "coal-assembly-materials", 1 ],
       "byproduct": [ "salvage", 999 ]
     },
@@ -1337,7 +1337,7 @@
       "category": "materials-factory2",
       "time": 60,
       "power": 2,
-      "ingredients": [ [ "salvage", 20 ], [ "petrol", 150 ] ],
+      "ingredients": [ [ "salvage", 15 ], [ "petrol", 50 ] ],
       "product": [ "petrol-assembly-materials", 1 ],
       "byproduct": [ "salvage", 999 ]
     },
@@ -1395,7 +1395,7 @@
       "power": 8,
       "ingredients": [
         [ "construction-materials", 3 ],
-        [ "components", 56 ],
+        [ "components", 55 ],
         [ "oil-heavy", 6 ]
       ],
       "product": [ "processed-construction-materials", 3 ],
@@ -1428,12 +1428,13 @@
       "name": "Steel Construction Materials",
       "key_name": "steel-construction-materials",
       "category": "metalworks4",
-      "time": 160,
+      "time": 90,
       "power": 9,
       "ingredients": [
         [ "processed-construction-materials", 3 ],
-        [ "components", 20 ],
-        [ "oil-enriched", 6 ]
+        [ "coke", 200 ],
+        [ "sulfur", 65 ],
+        [ "oil-heavy", 35 ]
       ],
       "product": [ "steel-construction-materials", 1 ],
       "byproduct": [ "salvage", 999 ]
@@ -1442,13 +1443,13 @@
       "name": "Alternate: Steel Construction Materials",
       "key_name": "alt-steel-construction-materials",
       "category": "metalworks4",
-      "time": 160,
+      "time": 90,
       "power": 8,
       "ingredients": [
-        [ "processed-construction-materials", 3 ],
-        [ "components", 20 ],
-        [ "sulfur", 20 ],
-        [ "oil-enriched", 6 ]
+        [ "processed-construction-materials", 9 ],
+        [ "coke", 375 ],
+        [ "oil-enriched", 90 ],
+        [ "water", 100 ]
       ],
       "product": [ "steel-construction-materials", 3 ],
       "byproduct": [ "salvage", 999 ]
@@ -1457,11 +1458,13 @@
       "name": "Enriched Oil Assembly Materials",
       "key_name": "enriched-oil-assembly-materials",
       "category": "metalworks4",
-      "time": 160,
+      "time": 120,
       "power": 8,
       "ingredients": [
-        [ "steel-construction-materials", 1 ],
-        [ "oil-enriched", 6 ]
+        [ "steel-construction-materials", 3 ],
+        [ "coke", 245 ],
+        [ "coal-assembly-materials", 15 ],
+        [ "petrol-assembly-materials", 15 ]
       ],
       "product": [ "enriched-oil-assembly-materials", 1 ],
       "byproduct": [ "salvage", 999 ]
