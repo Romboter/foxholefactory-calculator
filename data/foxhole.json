@@ -1697,7 +1697,7 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 10 ],
+        [ "processed-construction-materials", 5 ],
         [ "coal-assembly-materials", 10 ],
         [ "vic-xiphos", 1 ]
       ],
@@ -1711,7 +1711,7 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "construction-materials", 20 ],
+        [ "construction-materials", 10 ],
         [ "coal-assembly-materials", 10 ],
         [ "vic-xiphos", 1 ]
       ],
@@ -1725,7 +1725,7 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "construction-materials", 20 ],
+        [ "construction-materials", 10 ],
         [ "coal-assembly-materials", 15 ],
         [ "vic-actaeon", 1 ]
       ],
@@ -1753,7 +1753,7 @@
       "time": 180,
       "power": 2,
       "ingredients": [
-        [ "construction-materials", 5 ],
+        [ "construction-materials", 3 ],
         [ "vic-argonaut", 1 ]
       ],
       "product": [ "motor-odyssey", 1 ],
@@ -1766,7 +1766,7 @@
       "time": 180,
       "power": 2,
       "ingredients": [
-        [ "construction-materials", 5 ],
+        [ "construction-materials", 3 ],
         [ "petrol-assembly-materials", 10 ],
         [ "vic-argonaut", 1 ]
       ],
@@ -1782,7 +1782,7 @@
       "ingredients": [
         [ "processed-construction-materials", 70 ],
         [ "coal-assembly-materials", 10 ],
-        [ "sulfur-assembly-materials", 15 ],
+        [ "sulfur-assembly-materials", 8 ],
         [ "vic-hauler", 1 ]
       ],
       "product": [ "rocket-retiarius", 1 ],
@@ -1797,7 +1797,7 @@
       "ingredients": [
         [ "processed-construction-materials", 20 ],
         [ "petrol-assembly-materials", 15 ],
-        [ "heavy-oil-assembly-materials", 10 ]
+        [ "heavy-oil-assembly-materials", 3 ]
       ],
       "product": [ "rocket-hades", 1 ],
       "byproduct": [ "salvage", 999 ]
@@ -1809,8 +1809,8 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 5 ],
-        [ "heavy-oil-assembly-materials", 10 ],
+        [ "processed-construction-materials", 3 ],
+        [ "heavy-oil-assembly-materials", 3 ],
         [ "vic-javelin", 1 ]
       ],
       "product": [ "rocket-hoplite", 1 ],
@@ -1823,9 +1823,9 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 10 ],
+        [ "processed-construction-materials", 5 ],
         [ "petrol-assembly-materials", 5 ],
-        [ "heavy-oil-assembly-materials", 5 ],
+        [ "heavy-oil-assembly-materials", 3 ],
         [ "vic-javelin", 1 ]
       ],
       "product": [ "rocket-peltast", 1 ],
@@ -1851,7 +1851,7 @@
       "time": 180,
       "power": 2,
       "ingredients": [
-        [ "construction-materials", 15 ],
+        [ "construction-materials", 5 ],
         [ "tank-ballista", 1 ]
       ],
       "product": [ "field-scorpion", 1 ],
@@ -1864,8 +1864,8 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 10 ],
-        [ "sulfur-assembly-materials", 5 ],
+        [ "processed-construction-materials", 5 ],
+        [ "sulfur-assembly-materials", 3 ],
         [ "vic-acheron", 1 ]
       ],
       "product": [ "field-doru", 1 ],
@@ -1878,8 +1878,8 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 10 ],
-        [ "heavy-oil-assembly-materials", 10 ],
+        [ "processed-construction-materials", 5 ],
+        [ "heavy-oil-assembly-materials", 5 ],
         [ "vic-battering-ram", 1 ]
       ],
       "product": [ "field-smelter", 1 ],
@@ -1894,7 +1894,7 @@
       "ingredients": [
         [ "processed-construction-materials", 35 ],
         [ "petrol-assembly-materials", 20 ],
-        [ "sulfur-assembly-materials", 10 ],
+        [ "sulfur-assembly-materials", 5 ],
         [ "tank-hatchet", 1 ]
       ],
       "product": [ "tank-vulcan", 1 ],
@@ -1907,9 +1907,9 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 15 ],
+        [ "processed-construction-materials", 8 ],
         [ "petrol-assembly-materials", 20 ],
-        [ "sulfur-assembly-materials", 10 ],
+        [ "sulfur-assembly-materials", 5 ],
         [ "tank-hatchet", 1 ]
       ],
       "product": [ "tank-pelekys", 1 ],
@@ -1922,9 +1922,9 @@
       "time": 300,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 10 ],
+        [ "processed-construction-materials", 5 ],
         [ "coal-assembly-materials", 20 ],
-        [ "heavy-oil-assembly-materials", 10 ],
+        [ "heavy-oil-assembly-materials", 5 ],
         [ "tank-hatchet", 1 ]
       ],
       "product": [ "tank-kranesca", 1 ],
@@ -1937,9 +1937,9 @@
       "time": 420,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 15 ],
+        [ "processed-construction-materials", 8 ],
         [ "coal-assembly-materials", 10 ],
-        [ "heavy-oil-assembly-materials", 15 ],
+        [ "heavy-oil-assembly-materials", 8 ],
         [ "tank-falchion", 1 ]
       ],
       "product": [ "tank-spatha", 1 ],
@@ -1952,9 +1952,9 @@
       "time": 420,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 20 ],
+        [ "processed-construction-materials", 10 ],
         [ "petrol-assembly-materials", 10 ],
-        [ "sulfur-assembly-materials", 20 ],
+        [ "sulfur-assembly-materials", 10 ],
         [ "tank-bardiche", 1 ]
       ],
       "product": [ "tank-ranseur", 1 ],
@@ -1967,9 +1967,9 @@
       "time": 600,
       "power": 2,
       "ingredients": [
-        [ "processed-construction-materials", 155 ],
+        [ "processed-construction-materials", 135 ],
         [ "coal-assembly-materials", 10 ],
-        [ "heavy-oil-assembly-materials", 25 ]
+        [ "heavy-oil-assembly-materials", 15 ]
       ],
       "product": [ "tank-raptura", 1 ],
       "byproduct": [ "salvage", 999 ]
