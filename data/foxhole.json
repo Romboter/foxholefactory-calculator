@@ -191,8 +191,8 @@
       "max": 1
     },
     {
-      "name": "Tank Factory",
-      "key_name": "tank-factory",
+      "name": "Tank Assembly",
+      "key_name": "tank-assembly",
       "category": "light-vehicle-factory5",
       "power": 2,
       "max": 1
