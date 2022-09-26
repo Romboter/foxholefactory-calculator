@@ -301,7 +301,7 @@
       "name": "Coal Harvester",
       "key_name": "miner-coal",
       "category": "mineral-coal",
-      "base_rate": 50,
+      "base_rate": 250,
       "power": 0
     },
     {
