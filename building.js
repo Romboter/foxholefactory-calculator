@@ -48,9 +48,9 @@ class Miner extends Building {
         this.baseRate = baseRate
     }
     getRecipeRate(spec, recipe) {
-        let purity = spec.getResourcePurity(recipe)
-        let overclock = spec.getOverclock(recipe)
-        return this.baseRate.mul(purity.factor).mul(overclock)
+        // let purity = spec.getResourcePurity(recipe)
+        // let overclock = spec.getOverclock(recipe)
+        return this.baseRate
     }
 }
 

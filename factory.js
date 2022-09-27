@@ -21,7 +21,7 @@ import { renderTotals } from "./visualize.js"
 
 const DEFAULT_ITEM_KEY = "coke"
 
-let minerCategories = new Set(["mineral-salvage","mineral-coal","mineral-components","mineral-sulfur","mineral", "oil", "water", "gift-tree", "fluid", "manual"])
+let minerCategories = new Set(["mineral-salvage","mineral-coal","mineral-components","mineral-damaged_components","mineral-sulfur","mineral", "oil", "water", "gift-tree", "fluid", "manual"])
 
 export let resourcePurities = [
     // {key: "0", name: "Impure", factor: half},

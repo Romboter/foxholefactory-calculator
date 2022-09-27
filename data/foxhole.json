@@ -266,14 +266,14 @@
       "name": "Salvage Harvester",
       "key_name": "miner-salvage",
       "category": "mineral-salvage",
-      "base_rate": 50,
+      "base_rate": 250,
       "power": 0
     },
     {
       "name": "Salvage Mine",
       "key_name": "miner-mine",
       "category": "mineral-salvage",
-      "base_rate": 50,
+      "base_rate": 120,
       "power": 0
     },
     {
@@ -322,14 +322,14 @@
       "name": "Sulfur Harvester",
       "key_name": "miner-sulfur",
       "category": "mineral-sulfur",
-      "base_rate": 50,
+      "base_rate": 250,
       "power": 0
     },
     {
       "name": "Sulfur Mine",
       "key_name": "miner-mine",
       "category": "mineral-sulfur",
-      "base_rate": 50,
+      "base_rate": 30,
       "power": 0
     },
     {
@@ -350,7 +350,7 @@
       "name": "Components Harvester",
       "key_name": "miner-components",
       "category": "mineral-components",
-      "base_rate": 50,
+      "base_rate": 30,
       "power": 0
     },
     {
@@ -358,6 +358,13 @@
       "key_name": "miner-mine",
       "category": "mineral-components",
       "base_rate": 50,
+      "power": 0
+    },
+    {
+      "name": "Damaged Components Harvester",
+      "key_name": "miner-damaged_components",
+      "category": "mineral-damaged_components",
+      "base_rate": 45,
       "power": 0
     },
     {
@@ -409,9 +416,15 @@
       "stack_size": 100
     },
     {
+      "name": "Damaged Components",
+      "key_name": "damaged_components",
+      "tier": -1,
+      "stack_size": 100
+    },
+    {
       "name": "Gravel",
       "key_name": "gravel",
-      "tier": -1,
+      "tier": 1,
       "stack_size": 100
     },
     {
@@ -423,7 +436,7 @@
     {
       "name": "Enriched Oil",
       "key_name": "oil-enriched",
-      "tier": 2,
+      "tier": 1,
       "stack_size": 30
     },
     {
@@ -435,7 +448,7 @@
     {
       "name": "Petrol",
       "key_name": "petrol",
-      "tier": -1,
+      "tier": 1,
       "stack_size": 50
     },
     {
@@ -453,7 +466,7 @@
     {
       "name": "Water",
       "key_name": "water",
-      "tier": 2,
+      "tier": -1,
       "stack_size": 50
     },
     {
@@ -491,18 +504,6 @@
       "key_name": "concrete-materials",
       "tier": 1,
       "stack_size": 1
-    },
-    {
-      "name": "Relic Materials",
-      "key_name": "relic-materials",
-      "tier": 1,
-      "stack_size": 100
-    },
-    {
-      "name": "Rare Materials",
-      "key_name": "rare-materials",
-      "tier": 1,
-      "stack_size": 100
     },
     {
       "name": "Construction Materials",
@@ -555,472 +556,383 @@
     {
       "name": "Pipe",
       "key_name": "pipe",
-      "tier": 1,
+      "tier": 2,
       "stack_size": 100
     },
     {
       "name": "Sandbags",
       "key_name": "sandbags",
-      "tier": 1,
+      "tier": 2,
       "stack_size": 60
     },
     {
       "name": "Barbed Wire",
       "key_name": "barbed-wire",
-      "tier": 1,
+      "tier": 2,
       "stack_size": 60
     },
     {
       "name": "Metal Beams",
       "key_name": "metal-beams",
-      "tier": 1,
+      "tier": 2,
       "stack_size": 60
     },
     {
       "name": "Flame Barrel",
       "key_name": "flame-barrel",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "250mm Shell",
       "key_name": "250mm-shell",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 100
     },
     {
       "name": "3C-High Explosive Rocket",
       "key_name": "3c-high-explosive-rocket",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "4C-Fire Rocket",
       "key_name": "4c-fire-rocket",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "75mm Shell",
       "key_name": "75mm-shell",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "94.5mm Shell",
       "key_name": "94.5-shell",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "300mm Shell",
       "key_name": "300mm-shell",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "120mm Shell",
       "key_name": "120mm-shell",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "150mm Shell",
       "key_name": "150mm-shell",
-      "tier": 1,
+      "tier": 3,
       "stack_size": 1
     },
     {
       "name": "Material Pallet",
       "key_name": "material-pallet",
-      "tier": 1,
+      "tier": 2,
       "stack_size": 1
     },
     {
       "name": "00MS Stinger",
       "key_name": "vic-stinger",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "R-5 Atlas Hauler",
       "key_name": "vic-atlas",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "R-5b Sisyphus Hauler",
       "key_name": "vic-sisyphus",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "R-9 Speartip Escort",
       "key_name": "vic-speartip",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "BMS Mineseeker",
       "key_name": "vic-mineseeker",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "BMS Railtruck",
       "key_name": "vic-railtruck",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "BMS Linerunner",
       "key_name": "vic-linerunner",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "H-19 Vulcan",
       "key_name": "tank-vulcan",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "H-10 Pelekys",
       "key_name": "tank-pelekys",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "H-8 Kranesca",
       "key_name": "tank-kranesca",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "85K-a Spatha",
       "key_name": "tank-spatha",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "86K-c Ranseur",
       "key_name": "tank-ranseur",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "DAE 2a-1 Raptura",
       "key_name": "tank-raptura",
-      "tier": 1,
+      "tier": 6,
       "stack_size": 1
     },
     {
       "name": "R-17 Retiarius Skirmisher",
       "key_name": "rocket-retiarius",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "DAE 3b-2 Hades' Net",
       "key_name": "rocket-hades",
-      "tier": 1,
+      "tier": 6,
       "stack_size": 1
     },
     {
       "name": "HH-b Hoplite",
       "key_name": "rocket-hoplite",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "HH-d Peltast",
       "key_name": "rocket-peltast",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "T5 Percutio",
       "key_name": "motor-percutio",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "T8 Gemini",
       "key_name": "motor-gemini",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "T20 Ixion Tankette",
       "key_name": "motor-ixion",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "T14 Vesta Tankette",
       "key_name": "motor-vesta",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "UV-5c Odyssey",
       "key_name": "motor-odyssey",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "UV-24 Icarus",
       "key_name": "motor-icarus",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "BMS Scrap Hauler",
       "key_name": "field-scrap-hauler",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "HC-2 Scorpion",
       "key_name": "field-scorpion",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "AB-11 Doru",
       "key_name": "field-doru",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "40-45 Smelter",
       "key_name": "field-smelter",
-      "tier": 1,
+      "tier": 6,
       "stack_size": 1
     },
     {
       "name": "945g Stygian Bolt",
       "key_name": "weapon-stygian-bolt",
-      "tier": 1,
+      "tier": 6,
       "stack_size": 1
     },
     {
       "name": "85V-g Talos",
       "key_name": "weapon-talos",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "BMS Blackbolt",
       "key_name": "train-blackbolt",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "BMS Rockhold",
       "key_name": "train-rockhold",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "BMS Holdout",
       "key_name": "train-holdout",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "BMS Longrider",
       "key_name": "train-longrider",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "Aegis Steelbreaker K5a",
       "key_name": "train-assembly-aegis",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "Tempest Cannon RA-2",
       "key_name": "train-assembly-tempest",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "O-75b Ares",
       "key_name": "heavy-tank-ares",
-      "tier": 1,
+      "tier": 6,
       "stack_size": 1
     },
     {
       "name": "Lance-36",
       "key_name": "heavy-tank-lance",
-      "tier": 1,
+      "tier": 6,
       "stack_size": 1
     },
     {
       "name": "03MM Caster",
       "key_name": "vic-caster",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "R-1 Hauler",
       "key_name": "vic-hauler",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "T3 Xiphos",
       "key_name": "vic-xiphos",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "T12 Actaeon Tankette",
       "key_name": "vic-actaeon",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "UV-5a Argonaut",
       "key_name": "vic-argonaut",
-      "tier": 1,
+      "tier": 4,
       "stack_size": 1
     },
     {
       "name": "HH-a Javelin",
       "key_name": "vic-javelin",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "HC-7 Ballista",
       "key_name": "tank-ballista",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "AB-8 Acheron",
       "key_name": "vic-acheron",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "AA-2 Battering Ram",
       "key_name": "vic-battering-ram",
-      "tier": 1,
+      "tier": 6,
       "stack_size": 1
     },
     {
       "name": "H-5 Hatchet",
       "key_name": "tank-hatchet",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "85K-b Falchion",
       "key_name": "tank-falchion",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     },
     {
       "name": "86K-a Bardiche",
       "key_name": "tank-bardiche",
-      "tier": 1,
+      "tier": 5,
       "stack_size": 1
     }
   ],
   "recipes": [
-    {
-      "name": "945g Stygian Bolt",
-      "key_name": "weapon-stygian-bolt",
-      "category": "light-vehicle-factory6",
-      "time": 420,
-      "power": 2,
-      "ingredients": [
-        [ "steel-construction-materials", 15 ],
-        [ "petrol-assembly-materials", 20 ],
-        [ "sulfur-assembly-materials", 15 ],
-        [ "vic-battering-ram", 1 ]
-      ],
-      "product": [ "weapon-talos", 1 ],
-      "byproduct": [ "salvage", 999 ]
-    },
-    {
-      "name": "85V-g Talos",
-      "key_name": "weapon-talos",
-      "category": "light-vehicle-factory6",
-      "time": 420,
-      "power": 2,
-      "ingredients": [
-        [ "steel-construction-materials", 5 ],
-        [ "coal-assembly-materials", 10 ],
-        [ "heavy-oil-assembly-materials", 15 ],
-        [ "vic-falchion", 1 ]
-      ],
-      "product": [ "weapon-talos", 1 ],
-      "byproduct": [ "salvage", 999 ]
-    },
-    {
-      "name": "Aegis Steelbreaker K5a",
-      "key_name": "train-assembly-aegis",
-      "category": "large-assembly-factory1",
-      "time": 64800,
-      "power": 8,
-      "ingredients": [
-        [ "steel-construction-materials", 30 ],
-        [ "heavy-oil-assembly-materials", 30 ],
-        [ "sulfur-assembly-materials", 30 ]
-      ],
-      "product": [ "train-assembly-aegis", 1 ],
-      "byproduct": [ "salvage", 999 ]
-    },
-  {
-    "name": "Tempest Cannon RA-2",
-    "key_name": "train-assembly-tempest",
-    "category": "large-assembly-factory2",
-    "time": 64800,
-    "power": 8,
-    "ingredients": [
-      [ "steel-construction-materials", 125 ],
-      [ "heavy-oil-assembly-materials", 30 ],
-      [ "enriched-oil-assembly-materials", 40 ],
-      [ "sulfur-assembly-materials", 45 ]
-    ],
-    "product": [ "train-assembly-tempest", 1 ],
-    "byproduct": [ "salvage", 999 ]
-  },
-    {
-      "name": "Lance-36",
-      "key_name": "heavy-tank-lance",
-      "category": "large-assembly-factory1",
-      "time": 64800,
-      "power": 8,
-      "ingredients": [
-        [ "steel-construction-materials", 50 ],
-        [ "enriched-oil-assembly-materials", 35 ],
-        [ "heavy-oil-assembly-materials", 60 ],
-        [ "sulfur-assembly-materials", 30 ]
-      ],
-      "product": [ "heavy-tank-lance", 1 ],
-      "byproduct": [ "salvage", 999 ]
-    },
-    {
-      "name": "O-75b Ares",
-      "key_name": "heavy-tank-ares",
-      "category": "large-assembly-factory1",
-      "time": 172800,
-      "power": 8,
-      "ingredients": [
-        [ "steel-construction-materials", 275 ],
-        [ "enriched-oil-assembly-materials", 175 ],
-        [ "heavy-oil-assembly-materials", 95 ],
-        [ "sulfur-assembly-materials", 105 ]
-      ],
-      "product": [ "heavy-tank-ares", 1 ],
-      "byproduct": [ "salvage", 999 ]
-    },
     {
       "name": "HH-a Javelin",
       "key_name": "vic-javelin",
@@ -1188,7 +1100,7 @@
       "time": 120,
       "power": 3,
       "ingredients": [ [ "coal", 200 ] ],
-      "product": [ "coke", 180 ],
+      "product": [ "coke", 165 ],
       "byproduct": [ "sulfur", 15 ]
     },
     {
@@ -1197,7 +1109,7 @@
       "category": "coal-refining3",
       "time": 120,
       "power": 4,
-      "ingredients": [ [ "coal", 300 ], [ "water", 75 ] ],
+      "ingredients": [ [ "coal", 300 ], [ "water", 50 ] ],
       "product": [ "concrete-materials", 1 ],
       "byproduct": [ "oil", 50 ]
     },
@@ -1205,9 +1117,9 @@
       "name": "Alternate: Coke",
       "key_name": "alt-coke",
       "category": "coal-refining4",
-      "time": 120,
-      "power": 3,
-      "ingredients": [ [ "coal", 300 ], [ "water", 150 ] ],
+      "time": 180,
+      "power": 4,
+      "ingredients": [ [ "coal", 300 ], [ "water", 100 ] ],
       "product": [ "coke", 260 ],
       "byproduct": [ "oil-heavy", 60 ]
     },
@@ -1267,7 +1179,7 @@
       "category": "oil-refining4",
       "time": 200,
       "power": 6,
-      "ingredients": [ [ "oil-heavy", 55 ], [ "sulfur", 60 ] ],
+      "ingredients": [ [ "oil-heavy", 30 ], [ "sulfur", 60 ] ],
       "product": [ "oil-enriched", 30 ],
       "byproduct": [ "salvage", 999 ]
     },
@@ -1420,8 +1332,8 @@
       "category": "metalworks3",
       "time": 90,
       "power": 4,
-      "ingredients": [ [ "salvage", 200 ] ],
-      "product": [ "components", 1 ],
+      "ingredients": [ [ "damaged_components", 30 ] ],
+      "product": [ "components", 20 ],
       "byproduct": [ "salvage", 999 ]
     },
     {
@@ -1444,7 +1356,7 @@
       "key_name": "alt-steel-construction-materials",
       "category": "metalworks4",
       "time": 90,
-      "power": 8,
+      "power": 12,
       "ingredients": [
         [ "processed-construction-materials", 9 ],
         [ "coke", 375 ],
@@ -1463,8 +1375,8 @@
       "ingredients": [
         [ "steel-construction-materials", 3 ],
         [ "coke", 245 ],
-        [ "coal-assembly-materials", 15 ],
-        [ "petrol-assembly-materials", 15 ]
+        [ "coal-assembly-materials", 10 ],
+        [ "petrol-assembly-materials", 10 ]
       ],
       "product": [ "enriched-oil-assembly-materials", 1 ],
       "byproduct": [ "salvage", 999 ]
@@ -1975,6 +1887,36 @@
       "byproduct": [ "salvage", 999 ]
     },
     {
+      "name": "945g Stygian Bolt",
+      "key_name": "weapon-stygian-bolt",
+      "category": "light-vehicle-factory6",
+      "time": 420,
+      "power": 2,
+      "ingredients": [
+        [ "steel-construction-materials", 15 ],
+        [ "petrol-assembly-materials", 20 ],
+        [ "sulfur-assembly-materials", 15 ],
+        [ "vic-battering-ram", 1 ]
+      ],
+      "product": [ "weapon-talos", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
+    {
+      "name": "85V-g Talos",
+      "key_name": "weapon-talos",
+      "category": "light-vehicle-factory6",
+      "time": 420,
+      "power": 2,
+      "ingredients": [
+        [ "steel-construction-materials", 5 ],
+        [ "coal-assembly-materials", 10 ],
+        [ "heavy-oil-assembly-materials", 15 ],
+        [ "vic-falchion", 1 ]
+      ],
+      "product": [ "weapon-talos", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
+    {
       "name": "BMS Blackbolt",
       "key_name": "train-blackbolt",
       "category": "large-assembly-factory1",
@@ -2025,9 +1967,68 @@
       "ingredients": [
         [ "processed-construction-materials", 20 ],
         [ "petrol-assembly-materials", 15 ],
-        [ "sulfur-assembly-materials", 5 ]
+        [ "sulfur-assembly-materials", 10 ]
       ],
       "product": [ "train-longrider", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
+    {
+      "name": "Aegis Steelbreaker K5a",
+      "key_name": "train-assembly-aegis",
+      "category": "large-assembly-factory1",
+      "time": 1800,
+      "power": 8,
+      "ingredients": [
+        [ "steel-construction-materials", 30 ],
+        [ "heavy-oil-assembly-materials", 30 ],
+        [ "sulfur-assembly-materials", 30 ]
+      ],
+      "product": [ "train-assembly-aegis", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
+    {
+      "name": "Tempest Cannon RA-2",
+      "key_name": "train-assembly-tempest",
+      "category": "large-assembly-factory2",
+      "time": 259200,
+      "power": 8,
+      "ingredients": [
+        [ "steel-construction-materials", 285 ],
+        [ "heavy-oil-assembly-materials", 95 ],
+        [ "enriched-oil-assembly-materials", 105 ],
+        [ "sulfur-assembly-materials", 175 ]
+      ],
+      "product": [ "train-assembly-tempest", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
+    {
+      "name": "O-75b Ares",
+      "key_name": "heavy-tank-ares",
+      "category": "large-assembly-factory1",
+      "time": 172800,
+      "power": 8,
+      "ingredients": [
+        [ "steel-construction-materials", 275 ],
+        [ "enriched-oil-assembly-materials", 175 ],
+        [ "sulfur-assembly-materials", 105 ],
+        [ "heavy-oil-assembly-materials", 95 ]
+      ],
+      "product": [ "heavy-tank-ares", 1 ],
+      "byproduct": [ "salvage", 999 ]
+    },
+    {
+      "name": "Lance-36",
+      "key_name": "heavy-tank-lance",
+      "category": "large-assembly-factory1",
+      "time": 64800,
+      "power": 8,
+      "ingredients": [
+        [ "steel-construction-materials", 50 ],
+        [ "sulfur-assembly-materials", 30 ],
+        [ "heavy-oil-assembly-materials", 60 ],
+        [ "enriched-oil-assembly-materials", 35 ]
+      ],
+      "product": [ "heavy-tank-lance", 1 ],
       "byproduct": [ "salvage", 999 ]
     },
     {
@@ -2063,6 +2064,10 @@
     {
       "key_name": "components",
       "category": "mineral-components"
+    },
+    {
+      "key_name": "damaged_components",
+      "category": "mineral-damaged_components"
     },
     {
       "key_name": "sulfur",
