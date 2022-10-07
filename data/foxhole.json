@@ -1437,7 +1437,7 @@
       "name": "75mm Shell",
       "key_name": "75mm-shell",
       "category": "ammunition-factory3",
-      "time": 25,
+      "time": 60,
       "power": 4,
       "ingredients": [
         [ "heavy-explosive-materials", 2 ],
@@ -1450,7 +1450,7 @@
       "name": "94.5mm Shell",
       "key_name": "94.5-shell",
       "category": "ammunition-factory3",
-      "time": 25,
+      "time": 60,
       "power": 4,
       "ingredients": [
         [ "heavy-explosive-materials", 2 ],
@@ -1463,7 +1463,7 @@
       "name": "300mm Shell",
       "key_name": "300mm-shell",
       "category": "ammunition-factory3",
-      "time": 25,
+      "time": 60,
       "power": 6,
       "ingredients": [
         [ "heavy-explosive-materials", 6 ],
@@ -1476,7 +1476,7 @@
       "name": "120mm Shell",
       "key_name": "120mm-shell",
       "category": "ammunition-factory3",
-      "time": 15,
+      "time": 25,
       "power": 4,
       "ingredients": [
         [ "explosive-materials", 3 ],
@@ -1489,7 +1489,7 @@
       "name": "150mm Shell",
       "key_name": "150mm-shell",
       "category": "ammunition-factory3",
-      "time": 20,
+      "time": 40,
       "power": 4,
       "ingredients": [
         [ "heavy-explosive-materials", 2 ],
